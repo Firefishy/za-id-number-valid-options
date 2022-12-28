@@ -1,0 +1,5 @@
+{
+    "require": {
+        "talifhani/za-id-parser": "^0.0.2"
+    }
+}

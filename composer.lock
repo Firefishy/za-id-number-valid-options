@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "46e2757279c317780efccdd070050b2e",
+    "packages": [
+        {
+            "name": "talifhani/za-id-parser",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/talifhani/za-id-parser.git",
+                "reference": "6730bb6b80f1edf4cab7bd28418e14d06c63a9cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/talifhani/za-id-parser/zipball/6730bb6b80f1edf4cab7bd28418e14d06c63a9cc",
+                "reference": "6730bb6b80f1edf4cab7bd28418e14d06c63a9cc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Talifhani\\ZaIdParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tali Luvhengo",
+                    "email": "tali@semicolon.co.za"
+                }
+            ],
+            "description": "Package to parse and validate South African ID Numbers",
+            "support": {
+                "issues": "https://github.com/talifhani/za-id-parser/issues",
+                "source": "https://github.com/talifhani/za-id-parser/tree/v0.0.2"
+            },
+            "time": "2020-04-23T09:40:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,35 @@
+{
+    "name": "talifhani/za-id-parser",
+    "description": "Package to parse and validate South African ID Numbers",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Tali Luvhengo",
+            "email": "tali@semicolon.co.za"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Talifhani\\ZaIdParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Talifhani\\ZaIdParser\\": "test/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@test",
+            "@cs-check",
+            "@analyze"
+        ],
+        "analyze": "phpstan analyze -l max -c phpstan.neon ./src",
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit"
+    }
+}
